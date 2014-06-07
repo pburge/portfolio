@@ -27,10 +27,23 @@ body {
 	padding: 50px auto;
 }
 
-.float-fix{
-	float: left;
+@media (max-width: 950px) {
+	.float-fix{
+		float: left;
+		/*margin-left: 200px;*/
+		margin-right: -50px;
+	}
+}
+
+@media (min-width: 550px) {
+	.float-fix{
+		float: left;
+		margin-left: 200px;
+		margin-right: -50px;
+	}
 }
 
 .push-down{
-	margin-top: 50px;
+	margin-top: 100px;
 }
+
