@@ -3,6 +3,10 @@ body {
 	background: top center url("../img/low_contrast_linen.png") fixed;
 }
 
+.break{
+	margin-bottom: 20px;
+}
+
 .centered{
 	display: block;
 	margin-left: auto;
