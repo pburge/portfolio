@@ -20,7 +20,15 @@ if ($mail_status) {
 	?>
 	<script language="javascript" type="text/javascript">
 		alert("Thanks for the message! I'll be sure to contact you as soon as I can!");
-		window.location = '../index.html';
+		window.location = '../';
+	</script>
+<?php
+}
+else{
+	?>
+	<script language="javascript" type="text/javascript">
+		alert("Something went wrong! Please try sending it again!");
+		window.location = '../';
 	</script>
 <?php
 }
