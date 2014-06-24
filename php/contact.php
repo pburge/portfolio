@@ -24,12 +24,4 @@ if ($mail_status) {
 	</script>
 <?php
 }
-else{
-	?>
-	<script language="javascript" type="text/javascript">
-		alert("Something went wrong! Please try sending it again!");
-		window.location = '../index.html#contact';
-	</script>
-<?php
-}
 ?>
