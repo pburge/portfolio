@@ -1,5 +1,4 @@
 body {
-	/*background-image: url("../img/grey_wash_wall.png");*/
 	background: top center url("../img/low_contrast_linen.png") fixed;
 }
 
@@ -31,10 +30,18 @@ body {
 	padding: 50px auto;
 }
 
+@media (min-width: 1200px){
+	.scrollup {
+	    position: fixed;
+	    bottom: 50px;
+	    right: 100px;
+	    display: none;
+	}
+}
+
 @media (max-width: 950px) {
 	.float-fix{
 		float: left;
-		/*margin-left: 200px;*/
 		margin-right: -50px;
 	}
 }
