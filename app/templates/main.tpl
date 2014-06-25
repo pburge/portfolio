@@ -80,36 +80,6 @@
 			<p>A captcha I made using just PHP.</p>
 		</div>
 
-
-		<h1 id='third' class='push-down'>Contact me!</h1>
-
-		<div>
-			<form method="post" action='contact.php'>
-				<div class="form-group">
-					<label class="col-lg-2 control-label">Name</label>
-					<div class="col-lg-10">
-						<input type="text" class="form-control break" name="name">
-					</div>
-				</div>
-
-				<div class="form-group">
-					<label class="col-lg-2 control-label">E-Mail</label>
-					<div class="col-lg-10">
-						<input type="text" class="form-control break" name='email'>
-					</div>
-				</div>
-
-				<div class="form-group">
-					<label for="textArea" class="col-lg-2 control-label">Message</label>
-						<div class="col-lg-10">
-						<textarea class="form-control" rows="3" name='message'></textarea>
-						<br>
-						<button id="postButton" type="submit" class="btn btn-primary navbar-right">Send Email</button>
-					</div>
-				</div>
-			</form>
-		</div>
-
 	</div>
 </div>
 
