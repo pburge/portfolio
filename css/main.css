@@ -30,6 +30,10 @@ body {
 	padding: 50px auto;
 }
 
+.scrollup {
+    display: none;
+}
+
 @media (min-width: 1200px){
 	.scrollup {
 	    position: fixed;
@@ -52,6 +56,7 @@ body {
 		margin-left: 200px;
 		margin-right: -50px;
 	}
+
 }
 
 .push-down{

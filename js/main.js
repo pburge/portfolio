@@ -29,7 +29,7 @@ $('.scrollup').click(function () {
 
 // fades a button in and out at above or below 1000px.
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 1000) {
+    if ($(this).scrollTop() > 1000 && $(window).width() > 1000) {
         $('.scrollup').fadeIn();
     } else {
         $('.scrollup').fadeOut();
