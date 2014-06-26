@@ -8,8 +8,8 @@ Deployment plan:
 	- git push *github repo name* master
 
 2. If everything looks good, I will then
-		- git push **remote_staging_server_name** master
-		* and, of course, test on the staging server to see if there are any bugs.
+	- git push **remote_staging_server_name** master
+	* and, of course, test on the staging server to see if there are any bugs.
 
 3. After everything has passed my tests, I will then tag a release...
 	- git tag -a v **X.X.X** -m 'Tag message here'
