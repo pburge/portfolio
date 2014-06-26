@@ -16,6 +16,6 @@ Deployment plan:
 	- git push --tags
 
 4. ...and push up from staging to the production server.
-	-git push **remote_production_server_name** master
+	- git push **remote_production_server_name** master
 
 5. After all is said and done, I will sit back and think about where else I could improve.
