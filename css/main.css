@@ -2,6 +2,33 @@ body {
 	background: top center url("../img/low_contrast_linen.png") fixed;
 }
 
+.wufoo{
+	display:block !important;
+	visibility:visible !important;
+	text-indent:0 !important;
+	position:relative !important;
+	height:auto !important;
+	width:95px !important;
+	overflow:visible !important;
+	text-decoration:none;
+	cursor:pointer !important;
+	margin:0 auto !important
+}
+
+.wufoo2{
+	style="display:block !important;
+	visibility:visible !important;
+	text-indent:0 !important;
+	position:static !important;
+	height:auto !important;
+	width:auto !important;
+	overflow: auto !important;
+	font-weight:normal;
+	font-size:9px;
+	color:#777;
+	padding:0 0 0 3px;
+}
+
 .break{
 	margin-bottom: 20px;
 }
