@@ -1,4 +1,4 @@
-# Paul Burge's Portfolio Site.
+# Paul Burge's Portfolio Site (AngularJS).
 Deployment plan:
 
 1. When finishing a new feature in local dev, I push up to GitHub.
