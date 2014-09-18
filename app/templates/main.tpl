@@ -127,6 +127,12 @@
 		</div> <!-- END CONTACT FORM ***** DO NOT EDIT ANYTHING IN THIS DIV -->
 
 	</div> <!-- END PRIMARY CONTENT -->
+
+	<div class="mastfoot"> <!-- FOOTER -->
+		<div class="inner">
+			Paul Burge - MDD1406
+		</div>
+	</div>
 </div> <!-- END ENTIRE CONTAINER -->
 
 <script src='js/main.js'></script>

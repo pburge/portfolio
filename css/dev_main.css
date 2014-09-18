@@ -1,0 +1,110 @@
+/*Small screens*/
+@media only screen {
+/*	h1{
+		position: absolute; 
+		top: 15%; 
+		left: 0; 
+		width: 100%; 
+		color: #fff;
+	}*/
+
+	h1 {
+		font-family: 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+	.on_top_overlay{
+		position: absolute;
+		top: 8%;
+		left: 35%;
+		/*padding: 0px auto;*/
+	}
+	.drop{
+		padding-top: 50px;
+	}
+}
+
+/*Medium screens - min-width 641px,*/
+@media only screen and (min-width: 40.063em) { 
+
+	h1{
+		position: absolute; 
+		top: 48%; 
+		left: 0; 
+		width: 100%; 
+		color: #fff;
+	}
+
+	h1 span {
+		font: 40px 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+		background: rgb(0, 0, 0); /* fallback color */
+		background: rgba(0, 0, 0, 0.7);
+	}
+	.on_top_overlay{
+		position: absolute;
+		top: 1%;
+		left: 43%;
+	}
+	.drop{
+		padding-top: 50px;
+	}
+}
+
+/*Large screens - min-width 1025px*/
+@media only screen and (min-width: 64.063em) { 
+
+	h1{
+		position: absolute; 
+		top: 16%; 
+		left: 0; 
+		width: 100%; 
+		color: #fff;
+	}
+
+	h1 span {
+		font-family: 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		color: white; 
+		font: 50px 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+		background: rgb(0, 0, 0); /* fallback color */
+		background: rgba(0, 0, 0, 0.7);
+	}
+
+	.on_top_overlay{
+		position: absolute;
+		top: 1%;
+		left: 43%;
+	}
+	.drop{
+		padding-top: 50px;
+	}
+	.scrollup {
+	    position: fixed;
+	    bottom: 50px;
+	    right: 100px;
+	    display: none;
+	}
+}
+
+/*XLarge screens - min-width 1441px*/
+@media only screen and (min-width: 90.063em) { 
+
+
+	.scrollup {
+	    position: fixed;
+	    bottom: 50px;
+	    right: 100px;
+	    display: none;
+	}
+}
+
+/*XXLarge screens - min-width 1921px*/
+@media only screen and (min-width: 120.063em) { 
+
+
+	.scrollup {
+	    position: fixed;
+	    bottom: 50px;
+	    right: 100px;
+	    display: none;
+	}
+}
+
