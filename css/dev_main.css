@@ -1,4 +1,7 @@
 /*Small screens*/
+
+
+
 @media only screen {
 /*	h1{
 		position: absolute; 
@@ -8,13 +11,31 @@
 		color: #fff;
 	}*/
 
-	h1 {
+	h1, h2 {
 		font-family: 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+	header.major
+	{
+		position: relative;
+		text-align: center;
+		border-top: solid 1px #ccc;
+		top: 1em;
+	}
+
+	header.major h3
+	{
+		background: #fff;
+		position: relative;
+		top: -0.65em;
+		display: inline;
+		margin: 0;
+		padding: 0 1em 0 1em;
 	}
 
 	.on_top_overlay{
 		position: absolute;
-		top: 8%;
+		top: 20%;
 		left: 35%;
 		/*padding: 0px auto;*/
 	}
@@ -28,7 +49,7 @@
 
 	h1{
 		position: absolute; 
-		top: 48%; 
+		top: 60%; 
 		left: 0; 
 		width: 100%; 
 		color: #fff;
@@ -39,9 +60,32 @@
 		background: rgb(0, 0, 0); /* fallback color */
 		background: rgba(0, 0, 0, 0.7);
 	}
+
+	h2, h3, h4{
+		font-family: 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+	header.major
+	{
+		position: relative;
+		text-align: center;
+		border-top: solid 1px #ccc;
+		top: 1em;
+	}
+
+	header.major h3
+	{
+		background: #fff;
+		position: relative;
+		top: -0.65em;
+		display: inline;
+		margin: 0;
+		padding: 0 1em 0 1em;
+	}
+
 	.on_top_overlay{
 		position: absolute;
-		top: 1%;
+		top: 10%;
 		left: 43%;
 	}
 	.drop{
@@ -54,23 +98,44 @@
 
 	h1{
 		position: absolute; 
-		top: 16%; 
+		top: 25%; 
 		left: 0; 
 		width: 100%; 
 		color: #fff;
 	}
 
 	h1 span {
-		font-family: 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		color: white; 
-		font: 50px 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+		font: 45px 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 		background: rgb(0, 0, 0); /* fallback color */
 		background: rgba(0, 0, 0, 0.7);
 	}
 
+	h2, h3, h4{
+		font-family: 'Passion One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+	header.major
+	{
+		position: relative;
+		text-align: center;
+		border-top: solid 1px #ccc;
+		top: 1em;
+	}
+
+	header.major h2
+	{
+		background: #fff;
+		position: relative;
+		top: -0.65em;
+		display: inline;
+		margin: 0;
+		padding: 0 1em 0 1em;
+	}
+
 	.on_top_overlay{
 		position: absolute;
-		top: 1%;
+		top: 7%;
 		left: 43%;
 	}
 	.drop{
