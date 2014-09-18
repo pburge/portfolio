@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="css/foundation.css"/>
 <link rel="stylesheet" type="text/css" href="css/dev_main.css"/>
 <link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+
 <div class='row'>
 	<div class='medium-12 small-12 columns'>
 		<div class='show-for-small-only'>
@@ -10,9 +11,7 @@
 		<div class='show-for-medium-only'>
 			<img src="img/med_green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
 			<img class='on_top_overlay' src="img/logo.png">
-			<!-- <h1 class='text-center'><span>&nbsp;Hello. <br />&nbsp;I'm Paul Burge and I am a frontend and backend developer.&nbsp;</span></h1> -->
 			<h1 class='text-center'>Hello, world.</h1>
-
 		</div>
 	</div>
 </div>
@@ -28,7 +27,7 @@
 	<div class='large-12 columns'>
 		<section>
 			<header id="header" class="major">
-				<h3>Thing One</h3>	
+				<h3>My Left Ear</h3>	
 				<h4>This site was about stuff. It was fun to make and I've learned a lot making it.</h4>
 			</header>
 			<br>

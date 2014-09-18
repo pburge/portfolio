@@ -11,9 +11,7 @@
 		<div class='show-for-medium-only'>
 			<img src="img/med_green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
 			<img class='on_top_overlay' src="img/logo.png">
-			<!-- <h1 class='text-center'><span>&nbsp;Hello. <br />&nbsp;I'm Paul Burge and I am a frontend and backend developer.&nbsp;</span></h1> -->
 			<h1 class='text-center'>Hello, world.</h1>
-
 		</div>
 	</div>
 </div>
@@ -26,15 +24,16 @@
 <br>
 
 <div class='row'>
-		<div class='large-12 columns'>
-
+	<div class='large-12 columns'>
 		<div class='panel text-center'>
 			<h2 class='show-for-small-up'>My name is Paul Burge and I am a frontend and backend developer.</h2>
-			<a href="img/arrow_up.png" target="_blank" class='button success'>You can view my resume here.</a>
+			<!-- <a href="#" target="_blank" class='button success disabled'>You can view my resume here.</a> -->
+			<button class='button success disabled'><del>You can view my resume here. </del><br> Resume currently being made!</button>
 		</div>
 		<br >
 	</div>
 </div>
+
 
 <div class='row'>
 	<div class='large-12 columns'>
@@ -47,23 +46,22 @@
 				<div class="large-12 columns">
 					<div class="row">
 						<div class="large-3 medium-6 small-6 columns">
-							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class=" text-center">My Left Ear</h6>
+							<img src="img/mle_thumb.png" alt="">
+							<h6 class=" text-center">My Left Ear<br>An eCommerce art site</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
-							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class=" text-center">Is There Parking?</h6>
+							<img src="img/parking_thumb.gif" alt="'Is There Parking?' Mobile App.">
+							<h6 class=" text-center">"Is There Parking?"<br>A mobile app.</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
-							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class=" text-center">Space_Bar</h6>
+							<img src="img/space_thumb.jpg" alt="">
+							<h6 class=" text-center">Space_Bar <br> An eCommerce keyboard site.</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
-							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class=" text-center">Project: Dodge-M</h6>
+							<img src="img/dodge_thumb.png" alt="">
+							<h6 class=" text-center">Project: Dodge-M<br>A flash game.</h6>
 						</div>
 					</div>
-					<br>
 					<br>
 				</div>
 			</div>
@@ -77,40 +75,47 @@
 	<div class='large-12 columns'>
 		<section>
 			<header id="header" class="major">
-				<h3>What I'm capable of</h3>	
+				<h3>What I'm capable of</h3>
 			</header>
 			<br>
 			<div class="row">
 				<div class="large-12 columns">
 					<div class="row">
 						<div class="large-4 medium-4 small-4 columns">
-							<img src="http://placehold.it/100x100&text=Thumbnail"/>
-							<h6 class=" text-center">Front End</h6>
+							<i class="fa fa-mobile fa-5x"></i>
+							<h6 class=" text-center"><strong><u>Front End</u></strong></h6>
 							<ul class='no-bullet'>
-								<li>stuff</li>
-								<li>stuff</li>
-								<li>stuff</li>
-								<li>stuff</li>
+								<li>HTML5.</li>
+								<li>CSS3.</li>
+								<li>Bootstrap.</li>
+								<li>Foundation.</li>
+								<li>JavaScript/jQuery.</li>
+								<li>AngularJS.</li>
+								<li>Responsive designs.</li>
 							</ul>
 						</div>
 						<div class="large-4 medium-4 small-4 columns">
-							<img src="http://placehold.it/100x100&text=Thumbnail"/>
-							<h6 class=" text-center">Back End</h6>
+							<i class="fa fa-terminal fa-5x"></i>
+							<h6 class=" text-center"><strong><u>Back End</u></strong></h6>
 							<ul class='no-bullet'>
-								<li>stuff</li>
-								<li>stuff</li>
-								<li>stuff</li>
-								<li>stuff</li>
+								<li>PHP.</li>
+								<li>MySQL.</li>
+								<li>MongoDB.</li>
+								<li>Ajax with XHRs.</li>
+								<li>MVC structure.</li>
+								<li><a target="_blank" href="http://mean.io/#!/">Currently learning a MEAN stack.</a></li>
 							</ul>
 						</div>
 						<div class="large-4 medium-4 small-4 columns">
-							<img src="http://placehold.it/100x100&text=Thumbnail"/>
-							<h6 class=" text-center">Being Friendly</h6>
+							<i class="fa fa-code-fork fa-5x"></i>
+							<h6 class=" text-center"><strong><u>Social</u></strong></h6>
 							<ul class='no-bullet'>
-								<li>stuff</li>
-								<li>stuff</li>
-								<li>stuff</li>
-								<li>stuff</li>
+								<li>Loves to learn.</li>
+								<li><a target="_blank" href="https://github.com/pburge">Uses Git.</a></li>
+								<li>Team player.</li>
+								<li>Loves code.</li>
+								<li>Self starter.</li>
+								<li>Overall, cool dude.</li>
 							</ul>
 						</div>
 					</div>

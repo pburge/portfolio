@@ -3,16 +3,6 @@ $(document).ready(function() {
 	//foundation init
 	// $(document).foundation();
 
-	$(function() {
-	    
-	    $("h1")
-	        .wrapInner("<span>")
-
-	    $("h1 br")
-	        .before("<span class='spacer'>")
-	        .after("<span class='spacer'>");
-
-	});
 
 	// scrolls down to the projects
 	$("#web").click(function() {
