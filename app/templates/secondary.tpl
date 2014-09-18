@@ -29,7 +29,7 @@
 		<div class='large-12 columns'>
 
 		<div class='panel text-center'>
-			<h2 class='show-for-small-up'>I am Paul Burge and I am a frontend and backend developer.</h2>
+			<h2 class='show-for-small-up'>My name is Paul Burge and I am a frontend and backend developer.</h2>
 			<a href="img/arrow_up.png" target="_blank" class='button success'>You can view my resume here.</a>
 		</div>
 		<br >
@@ -46,32 +46,32 @@
 			<div class="row">
 				<div class="large-12 columns">
 					<div class="row">
-
 						<div class="large-3 medium-6 small-6 columns">
 							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class="panel text-center">Description</h6>
+							<h6 class=" text-center">My Left Ear</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class="panel text-center">Description</h6>
+							<h6 class=" text-center">Is There Parking?</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class="panel text-center">Description</h6>
+							<h6 class=" text-center">Space_Bar</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class="panel text-center">Description</h6>
+							<h6 class=" text-center">Project: Dodge-M</h6>
 						</div>
 					</div>
+					<br>
+					<br>
 				</div>
 			</div>
 			<a href="#gallery" class='button success'>View a small gallery here</a>
-			<br>
-			<br>
 		</section>
 	</div>
 </div>
+<br>
 
 <div class='row'>
 	<div class='large-12 columns'>
@@ -84,16 +84,34 @@
 				<div class="large-12 columns">
 					<div class="row">
 						<div class="large-4 medium-4 small-4 columns">
-							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class="panel text-center">Description</h6>
+							<img src="http://placehold.it/100x100&text=Thumbnail"/>
+							<h6 class=" text-center">Front End</h6>
+							<ul class='no-bullet'>
+								<li>stuff</li>
+								<li>stuff</li>
+								<li>stuff</li>
+								<li>stuff</li>
+							</ul>
 						</div>
 						<div class="large-4 medium-4 small-4 columns">
-							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class="panel text-center">Description</h6>
+							<img src="http://placehold.it/100x100&text=Thumbnail"/>
+							<h6 class=" text-center">Back End</h6>
+							<ul class='no-bullet'>
+								<li>stuff</li>
+								<li>stuff</li>
+								<li>stuff</li>
+								<li>stuff</li>
+							</ul>
 						</div>
 						<div class="large-4 medium-4 small-4 columns">
-							<img src="http://placehold.it/500x500&text=Thumbnail"/>
-							<h6 class="panel text-center">Description</h6>
+							<img src="http://placehold.it/100x100&text=Thumbnail"/>
+							<h6 class=" text-center">Being Friendly</h6>
+							<ul class='no-bullet'>
+								<li>stuff</li>
+								<li>stuff</li>
+								<li>stuff</li>
+								<li>stuff</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -101,13 +119,15 @@
 		</section>
 	</div>
 </div>
-
+<br><br>
 
 <!-- CONTACT FORM ***** DO NOT EDIT ANYTHING BELOW THIS LINE ************ -->
-<h2 id='third' class='push-down text-center'>Contact me!</h2>
 
 <div class='row'>
 	<div class='large-12 columns'>
+		<header id="header" class="major">
+			<h3>Contact me!</h3>	
+		</header>
 		<form id="form2" name="form2" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://pburge.wufoo.com/forms/mbjx6b7039od1m/#public">
 
 			<div class="form-group" id="foli1">
@@ -131,7 +151,8 @@
 				<div class="col-lg-10" id="foli3">
 					<textarea id="Field3" name="Field3" class="form-control" rows="3" name='message' placeholder="enter your message!"></textarea>
 					<br>
-					<button id="saveForm" type="submit" class="btn btn-success navbar-right">Send Email</button>
+					<button id="saveForm" type="submit" class="btn btn-success navbar-right show-for-medium-up">Send Email</button>
+					<button id="saveForm" type="submit" class="btn btn-success expand show-for-small-only">Send Email</button>
 				</div>
 			</div>
 

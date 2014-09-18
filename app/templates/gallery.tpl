@@ -1,7 +1,6 @@
 <link rel="stylesheet" type="text/css" href="css/foundation.css"/>
 <link rel="stylesheet" type="text/css" href="css/dev_main.css"/>
 <link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-
 <div class='row'>
 	<div class='medium-12 small-12 columns'>
 		<div class='show-for-small-only'>
