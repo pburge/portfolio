@@ -179,7 +179,7 @@
 		<hr>
 		<div class="row">
 			<div class="large-6 medium-6 small-6 columns">
-				<p class='text-left'>Enthusiastically ceated by Paul Burge</p>
+				<p class='text-left'>Enthusiastically created by Paul Burge</p>
 			</div>
 			<div class="large-6 medium-6 small-6 columns">
 				<ul class="inline-list right">
