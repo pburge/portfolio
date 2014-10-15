@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/css" href="css/dev_main.css"/>
 <link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
 
+<!-- FOR MOBILE AND TABLET VIEWS -->
 <div class='row'>
 	<div class='medium-12 small-12 columns'>
 		<div class='show-for-small-only'>
@@ -16,6 +17,7 @@
 	</div>
 </div>
 
+<!-- FOR FULL DESKTOP VIEW -->
 <div class='image_overlay show-for-large-up'>
 	<img src="img/green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
 	<img class='on_top_overlay' src="img/logo.png">
@@ -27,8 +29,7 @@
 	<div class='large-12 columns'>
 		<div class='panel text-center'>
 			<h2 class='show-for-small-up'>My name is Paul Burge and I am a frontend and backend developer.</h2>
-			<!-- <a href="#" target="_blank" class='button success disabled'>You can view my resume here.</a> -->
-			<button class='button success disabled'><del>You can view my resume here. </del><br> Resume currently being made!</button>
+			<a href="resume/Paul_Burge_Resume.pdf" target="_blank"  class='button success'>You can view my resume here.</a>
 		</div>
 		<br >
 	</div>
@@ -46,26 +47,26 @@
 				<div class="large-12 columns">
 					<div class="row">
 						<div class="large-3 medium-6 small-6 columns">
-							<img src="img/mle_thumb.png" alt="">
+							<a href="#gallery"><img src="img/mle_thumb.png" alt="My Left Ear thumbnail."></a>
 							<h6 class=" text-center">My Left Ear<br>An eCommerce art site</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
-							<img src="img/parking_thumb.gif" alt="'Is There Parking?' Mobile App.">
+							<a href="#gallery"><img src="img/parking_thumb.gif" alt="'Is There Parking?' thumbnail."></a>
 							<h6 class=" text-center">"Is There Parking?"<br>A mobile app.</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
-							<img src="img/space_thumb.jpg" alt="">
+							<a href="#gallery"><img src="img/space_thumb.jpg" alt="Space Bar thumbnail."></a>
 							<h6 class=" text-center">Space_Bar <br> An eCommerce keyboard site.</h6>
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
-							<img src="img/dodge_thumb.png" alt="">
+							<a href="#gallery"><img src="img/dodge_thumb.png" alt="Flash game thumbnail."></a>
 							<h6 class=" text-center">Project: Dodge-M<br>A flash game.</h6>
 						</div>
 					</div>
 					<br>
 				</div>
 			</div>
-			<a href="#gallery" class='button success'>View a small gallery here</a>
+			<a href="#gallery" class='button success'>View more of my work here</a>
 		</section>
 	</div>
 </div>

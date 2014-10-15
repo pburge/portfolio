@@ -27,8 +27,10 @@
 	<div class='large-12 columns'>
 		<section>
 			<header id="header" class="major">
-				<h3>My Left Ear</h3>	
-				<h4>This site was about stuff. It was fun to make and I've learned a lot making it.</h4>
+				<h3>My Left Ear</h3>
+				<h4>Site is live, but still in progress: <a target="_blank" href="http://www.myleftear.com">My Left Ear</a></h4>
+				<h5><strong>Summary:</strong> This site is made for artists to sell their works to art enthusiasts. </h5>
+				<h5><strong>Technologies:</strong> Built on FuelPHP using Foundation CSS for the front end and MySQL for data storage.</h5>
 			</header>
 			<br>
 			<div class="row">
@@ -59,8 +61,9 @@
 
 		<section>
 			<header id="header" class="major">
-				<h3>Thing Two</h3>	
-				<h4>This site was about stuff. It was fun to make and I've learned a lot making it.</h4>
+				<h3>Is There Parking?</h3>
+				<h5><strong>Summary:</strong> This mobile app was create for Full Sail students to find parking.</h5>
+				<h5><strong>Technologies:</strong> Built using AngularJS and Google Maps API. Uses AngularFire for data handling.</h5>
 			</header>
 			<br>
 			<div class="row">
@@ -91,8 +94,9 @@
 
 		<section>
 			<header id="header" class="major">
-				<h3>Thing Three</h3>	
-				<h4>This site was about stuff. It was fun to make and I've learned a lot making it.</h4>
+				<h3>Space_Bar</h3>	
+				<h5><strong>Summary:</strong> A side project. Mainly built to allow consumers to buy mechanical keyboards.</h5>
+				<h5><strong>Technologies:</strong> Built using Bootstrap CSS for the front end and MySQL for data storage. Utilizes AJAX to send and retrieve data asynchronously. </h5>
 			</header>
 			<br>
 			<div class="row">
@@ -123,8 +127,9 @@
 
 		<section>
 			<header id="header" class="major">
-				<h3>Thing Four</h3>	
-				<h4>This site was about stuff. It was fun to make and I've learned a lot making it.</h4>
+				<h3>Project: Dodge-M</h3>	
+				<h5><strong>Summary:</strong> The goal is to dodge all incoming red mines and to get the highest score possible.</h5>
+				<h5><strong>Technologies:</strong> Built with Flash Builder 4.7 using the Starling framework.</h5>
 			</header>
 			<br>
 			<div class="row">
@@ -152,8 +157,10 @@
 			<br>
 			<br>
 		</section>
-
-		<a href="#dev" class='button expand success'>Click to go back.</a>
+		<div class='large-4 small-centered columns'>
+			<a href="#dev" class='button success show-for-medium-up'><i class='fa fa-arrow-left'> &nbsp;&nbsp; Click to go back.</i></a>
+		</div>
+		<a href="#dev" class='button expand success show-for-small-only'><i class='fa fa-arrow-left'> Click to go back.</i></a>
 	</div>
 </div> 
 
