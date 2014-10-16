@@ -7,13 +7,13 @@
 	<div class='medium-12 small-12 columns'>
 		<div class='show-for-small-only'>
 			<img src="img/sm_green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-			<a href="#/">
+			<a href="/portfolio/#">
 				<img class='on_top_overlay' src="img/logo.png">
 			</a>
 		</div>
 		<div class='show-for-medium-only'>
 			<img src="img/med_green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-			<a href="#/">
+			<a href="/portfolio/#">
 				<img class='on_top_overlay' src="img/logo.png">
 				<h1 class='text-center'>Hello, world.</h1>
 			</a>
@@ -24,7 +24,7 @@
 <!-- FOR FULL DESKTOP VIEW -->
 <div class='image_overlay show-for-large-up'>
 		<img src="img/green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-	<a href="#/">
+	<a href="/portfolio/#">
 		<img class='on_top_overlay' src="img/logo.png">
 		<h1 class='text-center'>Hello, world.</h1>
 	</a>
