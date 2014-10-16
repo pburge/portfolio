@@ -7,21 +7,27 @@
 	<div class='medium-12 small-12 columns'>
 		<div class='show-for-small-only'>
 			<img src="img/sm_green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-			<img class='on_top_overlay' src="img/logo.png">
+			<a href="/">
+				<img class='on_top_overlay' src="img/logo.png">
+			</a>
 		</div>
 		<div class='show-for-medium-only'>
 			<img src="img/med_green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-			<img class='on_top_overlay' src="img/logo.png">
-			<h1 class='text-center'>Hello, world.</h1>
+			<a href="/">
+				<img class='on_top_overlay' src="img/logo.png">
+				<h1 class='text-center'>Hello, world.</h1>
+			</a>
 		</div>
 	</div>
 </div>
 
 <!-- FOR FULL DESKTOP VIEW -->
 <div class='image_overlay show-for-large-up'>
-	<img src="img/green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-	<img class='on_top_overlay' src="img/logo.png">
-	<h1 class='text-center'>Hello, world.</h1>
+		<img src="img/green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
+	<a href="/">
+		<img class='on_top_overlay' src="img/logo.png">
+		<h1 class='text-center'>Hello, world.</h1>
+	</a>
 </div>
 <br>
 
@@ -81,7 +87,7 @@
 			<br>
 			<div class="row">
 				<div class="large-12 columns">
-					<div class="row">
+					<div class="row ">
 						<div class="large-4 medium-4 small-4 columns">
 							<i class="fa fa-mobile fa-5x"></i>
 							<h6 class=" text-center"><strong><u>Front End</u></strong></h6>
@@ -102,7 +108,7 @@
 								<li>PHP.</li>
 								<li>MySQL.</li>
 								<li>MongoDB.</li>
-								<li>Ajax with XHRs.</li>
+								<li>Various backend frameworks.</li>
 								<li>MVC structure.</li>
 								<li><a target="_blank" href="http://mean.io/#!/">Currently learning a MEAN stack.</a></li>
 							</ul>
@@ -128,52 +134,54 @@
 <br><br>
 
 <!-- CONTACT FORM ***** DO NOT EDIT ANYTHING BELOW THIS LINE ************ -->
-
 <div class='row'>
 	<div class='large-12 columns'>
 		<header id="header" class="major">
 			<h3>Contact me!</h3>	
 		</header>
-		<form id="form2" name="form2" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://pburge.wufoo.com/forms/mbjx6b7039od1m/#public">
+		<div class='large-8 large-centered columns'>
+			<form id="form2" name="form2" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://pburge.wufoo.com/forms/mbjx6b7039od1m/#public">
 
-			<div class="form-group" id="foli1">
-				<label class="col-lg-2 control-label">Name</label>
-				<div class="col-lg-10">
-					<input id="Field1" name="Field1" type="text" class="form-control break" name="name" placeholder="enter your name">
+				<div class="form-group" id="foli1">
+					<label class="col-lg-2 control-label">Name</label>
+					<div class="col-lg-10">
+						<input id="Field1" name="Field1" type="text" class="form-control break" name="name" placeholder="enter your name">
+					</div>
 				</div>
-			</div>
 
-			<div class="form-group" id="foli2">
-				<label class="col-lg-2 control-label">E-Mail</label>
-				<div class="col-lg-10">
-					<input id="Field2" name="Field2" type="text" class="form-control break" name='email' placeholder="enter your email">
+				<div class="form-group" id="foli2">
+					<label class="col-lg-2 control-label">E-Mail</label>
+					<div class="col-lg-10">
+						<input id="Field2" name="Field2" type="text" class="form-control break" name='email' placeholder="enter your email">
+					</div>
 				</div>
-			</div>
 
-			<div class="form-group">
-				<label for="textArea" class="col-lg-2 control-label">
-					Message
-				</label>
-				<div class="col-lg-10" id="foli3">
-					<textarea id="Field3" name="Field3" class="form-control" rows="3" name='message' placeholder="enter your message!"></textarea>
-					<br>
-					<button id="saveForm" type="submit" class="btn btn-success navbar-right show-for-medium-up">Send Email</button>
-					<button id="saveForm" type="submit" class="btn btn-success expand show-for-small-only">Send Email</button>
+				<div class="form-group">
+					<label for="textArea" class="col-lg-2 control-label">
+						Message
+					</label>
+					<div class="col-lg-10" id="foli3">
+						<textarea id="Field3" name="Field3" class="form-control" rows="3" name='message' placeholder="enter your message!"></textarea>
+						<!-- <br> -->
+						<button id="saveForm" type="submit" class="success right show-for-medium-up">Send Email</button>
+						<button id="saveForm" type="submit" class="success expand show-for-small-only">Send Email</button>
+					</div>
 				</div>
-			</div>
 
-			<li class="hide">
-				<label for="comment">Do Not Fill This Out</label>
-				<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-				<input type="hidden" id="idstamp" name="idstamp" value="LAiWvRBwYuAN7SgR+rrgMbw1b67OJvGSDWncFPYtf9Y=" />
-			</li>
-		</form>
+				<li class="hide">
+					<label for="comment">Do Not Fill This Out</label>
+					<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+					<input type="hidden" id="idstamp" name="idstamp" value="LAiWvRBwYuAN7SgR+rrgMbw1b67OJvGSDWncFPYtf9Y=" />
+				</li>
+			</form>
 
-		<a class="powertiny wufoo text-center" href="http://www.wufoo.com/" title="Form Powered by Wufoo">
-			<b class='wufoo2'>Form Hosted By Wufoo</b>
-		</a>
+			<a class="powertiny wufoo text-center" href="http://www.wufoo.com/" title="Form Powered by Wufoo">
+				<p class='wufoo2 small'>Form Hosted By Wufoo</p>
+			</a>
+		</div>
 	</div>
-</div> <!-- END CONTACT FORM ***** DO NOT EDIT ABOVE THIS LINE ********** -->
+</div> 
+<!-- END CONTACT FORM ***** DO NOT EDIT ABOVE THIS LINE ********** -->
 
 <footer class="row">
 	<div class="large-12 columns">
