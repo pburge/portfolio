@@ -4,7 +4,7 @@ portfolio.config(function($routeProvider) {
 	$routeProvider.
 		when('/before',{ templateUrl: 'app/templates/main.tpl' }).
 		when('/gallery',{ templateUrl: 'app/templates/gallery.tpl' }).
-		when('/index',{ templateUrl: 'app/templates/secondary.tpl' }).
-		otherwise({ redirectTo: '/index' }
+		when('/',{ templateUrl: 'app/templates/secondary.tpl' }).
+		otherwise({ redirectTo: '/' }
 	);
 });
