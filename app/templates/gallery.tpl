@@ -35,7 +35,7 @@
 		<section>
 			<header id="header" class="major">
 				<h3>My Left Ear</h3>
-				<h4>Site is live, but still in progress: <a target="_blank" href="http://www.myleftear.com">My Left Ear</a></h4>
+				<h4>Site is dead, but most code is viewable on <a target="_blank" href="https://github.com/pburge/MyLeftEar">GitHub</a></h4>
 				<h5><strong>Summary:</strong> This site is made for artists to sell their works to art enthusiasts. </h5>
 				<h5><strong>Technologies:</strong> Built on FuelPHP using Foundation CSS for the front end and MySQL for data storage.</h5>
 			</header>
@@ -45,45 +45,38 @@
 					<div class="row resize">
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
-							<!-- <img src="http://placehold.it/1000x1000&text=Thumbnail"/> -->
+	
 							<img src="img/sites/leftear/1-home.png">
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 							<img src="img/sites/leftear/2-mediums.png">
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/leftear/3-commissions.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/leftear/4-artists.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 					</div>
 					<div class='row resize'>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/leftear/5-artist-view.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/leftear/6-piece-view.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/leftear/7-blog.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/leftear/8-cart.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 					</div>
 				</div>
@@ -104,7 +97,6 @@
 					<div class="row">
 						<div class="large-12 medium-12 small-12 columns">
 							<br>
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 							<img class='border' src="img/sites/itparking/1-main-view.png">
 
 						</div>
@@ -127,23 +119,19 @@
 					<div class="row resize">
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 							<img src="img/sites/spacebar/1-home.png">
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/spacebar/2-register.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/spacebar/3-product-list.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/spacebar/4-product.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 					</div>
 				</div>
@@ -164,23 +152,19 @@
 					<div class="row resize">
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 							<img src="img/sites/dodge-m/1-home.png">
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/dodge-m/2-title-screen.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/dodge-m/3-about.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 						<div class="large-3 medium-6 small-6 columns">
 							<br>
 							<img src="img/sites/dodge-m/4-gameplay.png">
-							<!-- <img src="http://placehold.it/500x500&text=Thumbnail"/> -->
 						</div>
 					</div>
 				</div>
