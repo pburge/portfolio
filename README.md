@@ -1,4 +1,7 @@
 # Paul Burge's Portfolio Site (AngularJS).
+
+Viewable here: http://pburge.github.io/portfolio/
+
 Deployment plan:
 
 1. When finishing a new feature in local dev, I push up to GitHub.
