@@ -7,13 +7,13 @@
 	<div class='medium-12 small-12 columns'>
 		<div class='show-for-small-only'>
 			<img src="img/sm_green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-			<a href="/">
+			<a href="#/">
 				<img class='on_top_overlay' src="img/logo.png">
 			</a>
 		</div>
 		<div class='show-for-medium-only'>
 			<img src="img/med_green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-			<a href="/">
+			<a href="#/">
 				<img class='on_top_overlay' src="img/logo.png">
 				<h1 class='text-center'>Hello, world.</h1>
 			</a>
@@ -24,7 +24,7 @@
 <!-- FOR FULL DESKTOP VIEW -->
 <div class='image_overlay show-for-large-up'>
 		<img src="img/green.jpg" alt="hello, I'm Paul Burge and this is my portfolio.">
-	<a href="/">
+	<a href="#/">
 		<img class='on_top_overlay' src="img/logo.png">
 		<h1 class='text-center'>Hello, world.</h1>
 	</a>
@@ -35,7 +35,7 @@
 	<div class='large-12 columns'>
 		<div class='panel text-center'>
 			<h2 class='show-for-small-up'>My name is Paul Burge and I am a frontend and backend developer.</h2>
-			<a href="resume/Paul_Burge_Resume.pdf" target="_blank"  class='button success'>You can view my resume here.</a>
+			<a href="resume/Paul_Burge_Resume.pdf" target="_blank"  class='button success'><i class="fa fa-file-text-o"> You can view my resume here.</i></a>
 		</div>
 		<br >
 	</div>
@@ -72,7 +72,7 @@
 					<br>
 				</div>
 			</div>
-			<a href="#gallery" class='button success'>View more of my work here</a>
+			<a href="#gallery" class='button success'><i class="fa fa-folder-open"> View more of my work here</i></a>
 		</section>
 	</div>
 </div>
@@ -163,7 +163,7 @@
 					<div class="col-lg-10" id="foli3">
 						<textarea id="Field3" name="Field3" class="form-control" rows="3" name='message' placeholder="enter your message!"></textarea>
 						<!-- <br> -->
-						<button id="saveForm" type="submit" class="success right show-for-medium-up">Send Email</button>
+						<button id="saveForm" type="submit" class="success right show-for-medium-up"><i class="fa fa-envelope"> Send Email</i></button>
 						<button id="saveForm" type="submit" class="success expand show-for-small-only">Send Email</button>
 					</div>
 				</div>
