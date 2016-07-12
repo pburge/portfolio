@@ -1,4 +1,4 @@
-<div class="cover-container"> <!-- START ENTIRE CONTAINER -->
+<div class="cover-container"> <!-- START ENTIRE CONTAINER. THIS IS JUST A TEST -->
 
     	<div class="masthead clearfix"> <!-- START LOGO CONTAINER -->
     		<div class="inner"> <!-- START NAV CONTAINER -->
