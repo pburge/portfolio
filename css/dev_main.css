@@ -511,7 +511,7 @@ fieldset[disabled] .btn-success.active {
    float: left;
    margin-right: 6px;
 }
-#description {
+.description {
    background: black;
    color: white;
    position: absolute;
