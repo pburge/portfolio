@@ -1,4 +1,4 @@
-# Paul Burge's Portfolio Site (Built with AngularJS/Bootstrap).
+# Paul Burge's Portfolio Site
 
 Viewable here: http://pburge.github.io/portfolio/
 
