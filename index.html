@@ -1,25 +1,599 @@
 <!DOCTYPE html>
-<html ng-app='pburge'>
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="generator" content="Wufoo">
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Paul Burge's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-	<!-- <link rel="stylesheet" type="text/css" href="css/main.css"/> -->
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<!-- <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/dev_main.css">
 </head> 
-<body>
-	
-	<div ng-view=''></div>
+<body id="page-top" class="index">
 
-	<!-- Other Linked Files -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-	<script src="js/mm-foundation-tpls.js"></script>
-	<script src='app/app.js'></script>
+	<!-- Navigation -->
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand" href="#page-top">Paul Burge<a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
+					<li class="page-scroll">
+						<a href="#portfolio">Portfolio</a>
+					</li>
+					<li class="page-scroll">
+						<a href="#about">About Me</a>
+					</li>
+					<li class="page-scroll">
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="intro-text">
+						<img src="img/logo.png">
+						<span class="name">Paul Burge</span>
+						<span class="skills">Web Developer</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Portfolio Grid Section -->
+	<section id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>Just a few things I've worked on</h2>
+					<hr class="line-primary">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/jgwz_thumb.png" class="img-responsive" width='360px' alt="">
+					</a>
+				</div>
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/clixit_thumb.png" class="img-responsive" width='360px' alt="">
+					</a>
+				</div>
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/mle_thumb.png" class="img-responsive" width='360px' alt="">
+					</a>
+				</div>
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/parking_thumb.gif" class="img-responsive" width='360px' alt="">
+					</a>
+				</div>
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/space_thumb.jpg" class="img-responsive" width='360px' alt="">
+					</a>
+				</div>
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/dodge_thumb.png" class="img-responsive" width='360px' alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- About Section -->
+	<section class="success" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>About</h2>
+					<hr class="line-light">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 text-center">
+					<i class="fa fa-mobile fa-5x"></i>
+					<h6><strong><u>Front End</u></strong></h6>
+					<ul class='list-group no-bullet'>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>Bootstrap</li>
+						<li>Foundation</li>
+						<li>JavaScript/jQuery</li>
+						<li>AngularJS</li>
+						<li>Responsive designs</li>
+					</ul>
+				</div>
+				<div class="col-lg-4 text-center">
+					<i class="fa fa-terminal fa-5x"></i>
+					<h6><strong><u>Back End</u></strong></h6>
+					<ul class='list-group no-bullet'>
+						<li>PHP</li>
+						<li>MySQL</li>
+						<li>MongoDB</li>
+						<li>Various backend frameworks</li>
+						<li>MVC structure</li>
+					</ul>
+				</div>
+				<div class="col-lg-4 text-center">
+					<i class="fa fa-code-fork fa-5x"></i>
+					<h6><strong><u>Social</u></strong></h6>
+					<ul class='list-group no-bullet'>
+						<li>Loves to learn.</li>
+						<li><a target="_blank" href="https://github.com/pburge">Uses Git.</a></li>
+						<li>Team player.</li>
+						<li>Loves code.</li>
+						<li>Self starter.</li>
+						<li>Overall, cool dude.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Section -->
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>Contact Me</h2>
+					<hr class="line-primary">
+				</div>
+			</div>
+			<!-- CONTACT FORM ***** DO NOT EDIT ANYTHING BELOW THIS LINE ************ -->
+			<div class='row'>
+				<div class='large-12 columns'>
+					<div class='large-8 large-centered columns'>
+						<form id="form2" name="form2" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://pburge.wufoo.com/forms/mbjx6b7039od1m/#public">
+
+							<div class="form-group" id="foli1">
+								<label class="col-lg-2 control-label">Name</label>
+								<div class="col-lg-10">
+									<input id="Field1" name="Field1" type="text" class="form-control break" name="name" placeholder="enter your name">
+								</div>
+							</div>
+
+							<div class="form-group" id="foli2">
+								<label class="col-lg-2 control-label">E-Mail</label>
+								<div class="col-lg-10">
+									<input id="Field2" name="Field2" type="text" class="form-control break" name='email' placeholder="enter your email">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="textArea" class="col-lg-2 control-label">
+									Message
+								</label>
+								<div class="col-lg-10" id="foli3">
+									<textarea id="Field3" name="Field3" class="form-control" rows="3" name='message' placeholder="enter your message!"></textarea>
+									<br>
+									<button id="saveForm" type="submit" class="btn btn-success expand"><i class="fa fa-envelope"></i> Send Email</button>
+								</div>
+							</div>
+
+							<li class="hide">
+								<label for="comment">Do Not Fill This Out</label>
+								<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+								<input type="hidden" id="idstamp" name="idstamp" value="LAiWvRBwYuAN7SgR+rrgMbw1b67OJvGSDWncFPYtf9Y=" />
+							</li>
+						</form>
+
+						<a class="text-center" href="http://www.wufoo.com/" title="Form Powered by Wufoo">
+							<p class='wufoo2 small'>Form Hosted By Wufoo</p>
+						</a>
+					</div>
+				</div>
+			</div> 
+			<!-- END CONTACT FORM ***** DO NOT EDIT ABOVE THIS LINE ********** -->
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="text-center">
+		<div class="footer-above">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col col-md-4"></div>
+					<div class="footer-col col-md-4">
+						<h3>Find me here and there</h3>
+						<ul class="list-inline">
+							<li>
+								<a href="https://github.com/pburge" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/paul-burge-7b957978" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+							</li>
+
+						</ul>
+					</div>
+					<div class="footer-col col-md-4"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-below">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						Copyright &copy; Paul Burge 2016
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+	<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+		<a class="btn btn-primary" href="#page-top">
+			<i class="fa fa-chevron-up"></i>
+		</a>
+	</div>
+
+	<!-- Portfolio Modals -->
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>JGWZ Media</h2>
+							<hr class="line-primary">
+							<div id="gallery">
+							  <div id="panel">
+								<img id="largeImage" src="img/sites/jgwzmedia/jgwz1.png" class="img-responsive img-centered" alt="">
+								<div id="description">The homepage.</div>
+							  </div>
+							  <div id="thumbs" class='col-sm-12 img-shrink'>
+									<div class='col-md-4'>
+										<a href="#largeImage"><img src="img/sites/jgwzmedia/jgwz1.png" alt="Home screen" class='img-responsive' /></a>
+									</div>
+									<div class='col-md-4'>
+										<a href="#largeImage"><img src="img/sites/jgwzmedia/jgwz2.png" alt="A client feature screen" class='img-responsive' /></a>
+									</div>
+
+									<div class='col-md-4'>
+										<a href="#largeImage"><img src="img/sites/jgwzmedia/jgwz3.png" alt="And a page sample." class='img-responsive' /></a>
+									</div>
+							  </div>
+							</div>
+							<p>Pronouced "Jig-Wiz", I was asked to redesign JGWZ's entire site with a deadline of 2 weeks. Thanks to Wordpress, it was done in half that.</p>
+							<ul class="list-inline item-details">
+								<li>Date started:
+									<strong>May 2016</strong>
+								</li>
+								<li>Made with:
+									<strong>Wordpress (Divi)</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Clixit</h2>
+							<hr class="line-primary">
+							<div id="gallery">
+							  <div id="panel">
+								<img id="largeImage" src="img/sites/clixit/clixit1.png" class="img-responsive img-centered" alt="">
+								<div id="description">The homepage.</div>
+							  </div>
+							  <div id="thumbs" class='col-sm-12 img-shrink'>
+									<div class='col-md-4'>
+										<a href="#largeImage"><img src="img/sites/clixit/clixit1.png" alt="Home screen" class='img-responsive' /></a>
+									</div>
+									<div class='col-md-4'>
+										<a href="#largeImage"><img src="img/sites/clixit/clixit2.png" alt="Product screen" class='img-responsive' /></a>
+									</div>
+
+									<div class='col-md-4'>
+										<a href="#largeImage"><img src="img/sites/clixit/clixit3.png" alt="The shopping cart" class='img-responsive' /></a>
+									</div>
+							  </div>
+							</div>
+							<p>Clixit is a live site that sells skin care products. This was a redesign that I was tasked to complete, along with bug fixes. A lot of bug fixes.</p>
+							<ul class="list-inline item-details">
+								<li>Date started:
+									<strong>March 2016</strong>
+								</li>
+								<li>Made with:
+									<strong>Wordpress (Divi)</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>My Left Ear</h2>
+							<hr class="line-primary">
+							<div id="gallery">
+								<div id="panel">
+									<img id="largeImage" src="img/sites/leftear/1-home.png" class="img-responsive img-centered" alt="">
+									<div id="description">The homepage.</div>
+								</div>
+								<div id="thumbs" class='img-shrink'>
+									<div class="row">
+										<div class='col-md-3'>
+											<a href="#largeImage"><img src="img/sites/leftear/1-home.png" alt="Home screen" class='img-responsive' /></a>
+										</div>
+										<div class='col-md-3'>
+											<a href="#largeImage"><img src="img/sites/leftear/2-mediums.png" alt="Register screen" class='img-responsive' /></a>
+										</div>
+
+										<div class='col-md-3'>
+											<a href="#largeImage"><img src="img/sites/leftear/3-commissions.png" alt="Where a user could request commissioned works." class='img-responsive' /></a>
+										</div>
+										<div class='col-md-3'>
+											<a href="#largeImage"><img src="img/sites/leftear/4-artists.png" alt="The artist list page." class='img-responsive' /></a>
+										</div>
+									</div>
+									<div class="row">
+										<div class='col-md-3'>
+											<a href="#largeImage"><img src="img/sites/leftear/5-artist-view.png" alt="and the artist profile page." class='img-responsive' /></a>
+										</div>
+										<div class='col-md-3'>
+											<a href="#largeImage"><img src="img/sites/leftear/6-piece-view.png" alt="Where a user could see the art piece." class='img-responsive' /></a>
+										</div>
+
+										<div class='col-md-3'>
+											<a href="#largeImage"><img src="img/sites/leftear/7-blog.png" alt="A blog." class='img-responsive' /></a>
+										</div>
+
+										<div class='col-md-3'>
+											<a href="#largeImage"><img src="img/sites/leftear/8-cart.png" alt="The shopping cart." class='img-responsive' /></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<p>This site is made for artists to sell their works to art enthusiasts. </p>
+							<ul class="list-inline item-details">
+								<li>Date started:
+									<strong>August 2014</strong>
+								</li>
+								<li>Made with:
+									<strong>Built on FuelPHP using Foundation CSS for the front end and MySQL for data storage.</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Is There Parking</h2>
+							<hr class="line-primary">
+							<div id="gallery">
+							  <div id="panel">
+								<img id="largeImage" src="img/sites/itparking/1-main-view.png" class="img-responsive img-centered" alt="">
+								<div id="description">The homepage. Not much else to see.</div>
+							  </div>
+							<p>This mobile app was created for Full Sail students to find parking.</p>
+							<ul class="list-inline item-details">
+								<li>Date started:
+									<strong>July 2014</strong>
+								</li>
+								<li>Made with:
+									<strong>AngularJS and Google Maps API. Uses AngularFire for data handling.</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Space Bar</h2>
+							<hr class="line-primary">
+							<div id="gallery">
+							  <div id="panel">
+								<img id="largeImage" src="img/sites/spacebar/1-home.png" class="img-responsive img-centered" alt="">
+								<div id="description">The homepage.</div>
+							  </div>
+							  <div id="thumbs" class='col-sm-12 img-shrink'>
+									<div class='col-md-3'>
+										<a href="#largeImage"><img src="img/sites/spacebar/1-home.png" alt="Home screen" class='img-responsive' /></a>
+									</div>
+									<div class='col-md-3'>
+										<a href="#largeImage"><img src="img/sites/spacebar/2-register.png" alt="Register screen" class='img-responsive' /></a>
+									</div>
+
+									<div class='col-md-3'>
+										<a href="#largeImage"><img src="img/sites/spacebar/3-product-list.png" alt="A working dynamic list with products." class='img-responsive' /></a>
+									</div>
+
+									<div class='col-md-3'>
+										<a href="#largeImage"><img src="img/sites/spacebar/4-product.png" alt="The product page." class='img-responsive' /></a>
+									</div>
+
+							  </div>
+							</div>
+							<p>This was a prototype that was meant to be an online store some time in the future. Unfortunately I didn't plan things through all too well,
+								so I figured I'd save it for now and redesign it completely one day since it doesn't look very good by today's standards... </p>
+							<ul class="list-inline item-details">
+								<li>Date started:
+									<strong>Not quite sure...</strong>
+								</li>
+								<li>Made with:
+									<strong>HTML, Bootstrap, jQuery, PHP. MySQL for the database.</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Project: Dodge-M</h2>
+							<hr class="line-primary">
+							<div id="gallery">
+							  <div id="panel">
+							  <!-- all large images will be 565x280px and thumbs will be 100x100px. -->
+								<img id="largeImage" src="img/sites/dodge-m/1-home.png" class="img-responsive img-centered" alt="">
+								<div id="description">Dodge 'em!</div>
+							  </div>
+							  <div id="thumbs" class='col-sm-12 img-shrink'>
+									<div class='col-md-3'>
+										<a href="#largeImage"><img src="img/sites/dodge-m/1-home.png" alt="Home screen" class='img-responsive' /></a>
+									</div>
+									<div class='col-md-3'>
+										<a href="#largeImage"><img src="img/sites/dodge-m/2-title-screen.png" alt="title screen" class='img-responsive' /></a>
+									</div>
+
+									<div class='col-md-3'>
+										<a href="#largeImage"><img src="img/sites/dodge-m/3-about.png" alt="About" class='img-responsive' /></a>
+									</div>
+
+									<div class='col-md-3'>
+										<a href="#largeImage"><img src="img/sites/dodge-m/4-gameplay.png" alt="A little gameplay" class='img-responsive' /></a>
+									</div>
+
+							  </div>
+							</div>
+							<p>This game was primarily used to learn how to make Flash games. Very different from what I've done in the past, that's for sure. 
+							Premise of the game was to dodge all incoming red mines using your mouse and upon colliding with one, you lose a life (the red star).</p>
+							<ul class="list-inline item-details">
+								<li>Date started:
+									<strong>Spring 2013</strong>
+								</li>
+								<li>Made with:
+									<strong>Adobe Flash and Starling Framework</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
