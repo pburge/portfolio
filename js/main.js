@@ -1,9 +1,8 @@
 (function($) {
 
-	
-	$('#thumbs img').click(function(){
-	    $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
-	    $('#description').html($(this).attr('alt'));
+	$('#thumbs1 img').click(function(){
+	    $('#largeImage1').attr('src',$(this).attr('src').replace('thumb','large'));
+	    $('#description1').html($(this).attr('alt'));
 	    $('#portfolioModal1').animate({
 	        scrollTop: $('html, body').offset().top
 	    }, 500);
