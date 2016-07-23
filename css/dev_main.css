@@ -502,7 +502,7 @@ fieldset[disabled] .btn-success.active {
 }
 #thumbs { padding-top: 10px; overflow: hidden; }
 #thumbs img, #largeImage {
-   border: 1px solid gray;
+   border: 3px solid #373f4e;
    padding: 4px;
    background-color: white;
    cursor: pointer;
@@ -521,4 +521,13 @@ fieldset[disabled] .btn-success.active {
 }
 #panel { 
     position: relative; 
+}
+.portfolio-link{
+  border: 3px solid #373f4e;
+}
+.ordered-header{
+  font-size: 20px;
+}
+.ordered-list{
+  font-size: 20px;
 }
