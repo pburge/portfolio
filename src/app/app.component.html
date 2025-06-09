@@ -1,0 +1,16 @@
+<div class="d-flex flex-column flex-md-row">
+
+	<!-- Sidenav (left) -->
+	<div class="flex-shrink-0">
+		<app-sidenav></app-sidenav>
+	</div>
+
+	<!-- Main content area -->
+	<div class="flex-grow-1 d-flex flex-column">
+		<app-navbar class="sticky-top"></app-navbar>
+		<main class="flex-grow-1">
+			<router-outlet></router-outlet>
+		</main>
+	</div>
+	
+</div>

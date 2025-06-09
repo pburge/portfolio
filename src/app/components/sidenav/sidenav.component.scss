@@ -1,0 +1,21 @@
+/* Example styles */
+.sidenav {
+  width: 270px;
+  height: 97.5%;
+  padding: 32px 0;
+}
+.sidenav-avatar {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
+.sidenav-contact {
+  max-width: 85%;
+}
+.text-orange { color: #ff5722; }
+.text-orange-light { color: #ff9800; }
+.text-red { color: #e53935; }
+.sidenav-resume-btn {
+  background: #ff5722;
+  border: none;
+}
