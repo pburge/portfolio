@@ -44,8 +44,7 @@
 				"styles": {
 					"minify": true,
 					"inlineCritical": false
-				},
-				"fonts": true
+				}
 			},
 			"production": {
 			  "budgets": [
