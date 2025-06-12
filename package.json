@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
 	"github-build": "ng build --configuration production --base-href 'https://pburge.github.io/portfolio/'",
-	"github-deploy": "npx angular-cli-ghpages --dir=docs/browser --no-silent"
+	"github-deploy": "npx angular-cli-ghpages --dir=docs/browser --no-silent",
+	"gh-pages": "npm run github-build && npm run github-deploy"
   },
   "private": true,
   "dependencies": {
