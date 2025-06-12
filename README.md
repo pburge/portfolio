@@ -9,17 +9,13 @@ This is my portfolio site. It is a simple angular site that displays some of my 
 	- `git status`
 	- `git commit -m *"<<commit>>"`
 	- `git push`
-2. If everything looks good, I  deploy using custom commands.
-	- `npm run github-build`
-	- `npm run github-deploy`
+2. If everything looks good, I  deploy using a custom command.
+	- `npm run github-pages`
 	* and, of course, test on staging to see if there are any bugs.
 3. After everything has passed my tests, I will then tag a release...
-	- `git tag -a v **X.X.X** -m *'tag message here'`
+	- `git tag -a v **X.X.X** -m *'<<tag text>>'`
 	- `git push **github repo name** --tags`
-4. ...and push up from staging to the production server.
-	- `git push **production server name** master`
-
-5. After all is said and done, I will sit back and think about where else I could improve.
+4. After all is said and done, I will sit back and think about where else I could improve.
 
 ## Tech Used
 
