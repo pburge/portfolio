@@ -37,6 +37,15 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+  my-jobname:
+    runs-on: ubuntu-latest
+    env:
+      super_secret: ${{ secrets.SuperSecret }}
+    steps:
+      - if: ${{ env.super_secret != '' }}
+        run: echo 'This step will only run if the secret has a value set.'
+      - if: ${{ env.super_secret == '' }}
+        run: echo 'This step will only run if the secret does not have a value set.'
 
   # Deployment job
   deploy:
