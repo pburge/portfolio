@@ -1,4 +1,5 @@
 # Build/Compiled Artifacts
+/dist
 /tmp
 /out-tsc
 /coverage

@@ -45,7 +45,7 @@
 						],
 						"browser": "src/main.ts",
 						"index": "src/index.html",
-						"outputPath": "dist/portfolio",
+						"outputPath": "docs",
 						"polyfills": [
 							"zone.js",
 							"@angular/localize/init"
