@@ -8,9 +8,6 @@ src/environments/*.ts
 *.bak
 *.swp
 
-# adding docs folder as a test
-/docs
-
 # Dependencies
 /node_modules
 npm-debug.log*
