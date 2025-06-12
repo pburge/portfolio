@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
-import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @Component({
   selector: 'app-navbar',
   imports: [
 	RouterModule,
-	NgbCollapseModule,
-	NgbNavModule
 ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
