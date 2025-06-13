@@ -4,7 +4,7 @@
 /tmp
 /out-tsc
 /coverage
-src/environments/*.ts
+# src/environments/*.ts
 *.log
 *.bak
 *.swp

@@ -18,7 +18,14 @@
 							"optimization": false,
 							"sourceMap": true
 						},
-						"optimization": {},
+            "optimization": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.optimization.ts"
+                }
+              ]
+            },
 						"production": {
 							"budgets": [
 								{
