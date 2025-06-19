@@ -1,18 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, inject, signal, TemplateRef, WritableSignal } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { NgbDatepickerModule, NgbOffcanvas, OffcanvasDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 
 @Component({
   selector: 'app-navbar',
   imports: [
 	RouterModule,
+	NgbDatepickerModule
 ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
   standalone: true
 })
 export class NavbarComponent {
-
 	public isMenuCollapsed: boolean = true;
 
 	public themeMode: string = 'Dark Mode';
@@ -30,5 +31,12 @@ export class NavbarComponent {
 			this.themeMode = 'Dark Mode';
 			document.body.setAttribute('data-bs-theme', 'light');
 		}
-  }
+	}
+
+	private offcanvasService = inject(NgbOffcanvas);
+	closeResult: WritableSignal<string> = signal('');
+
+	open(content: TemplateRef<any>) {
+		this.offcanvasService.open(content, { ariaLabelledBy: 'offcanvas-basic-title' });
+	}
 }
