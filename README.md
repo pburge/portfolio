@@ -30,3 +30,9 @@ This is my portfolio site. It is a simple angular site that displays some of my 
 * Links to projects
 * Links to social media
 * Links to email
+
+## Things to do:
+
+* Implement portfolio page
+* Implement contact page
+* Improve components to be more dynamic
